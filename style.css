@@ -1,0 +1,51 @@
+.b1, .b2, .b3, .b4, .b5, .b6, .b7, .b8, .b9 {
+  font-size: 20px;
+  color: white;
+  border-width: 2px;
+  transition: background-color 0.3s linear, color 0.3s linear;
+}
+
+.b1 {
+  background-color: red;
+}
+
+.b2 {
+  background-color: cyan;
+}
+
+.b3 {
+  background-color: brown;
+}
+
+.b4 {
+  background-color: black;
+}
+
+.b5 {
+  background-color: orange;
+}
+
+.b6 {
+  background-color: pink;
+}
+
+.b7 {
+  background-color: blue;
+}
+
+.b8 {
+  background-color: green;
+}
+
+.b9 {
+  background-color: transparent;
+  color: blue; /* Change the color for the link button */
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Optional hover effect for the link button */
+.b9:hover {
+  color: red;
+  background-color:green;
+}
